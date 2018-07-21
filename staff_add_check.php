@@ -6,5 +6,14 @@
 </head>
 <body>
 
+<?php
+
+$staff_name = $POST['name'];
+$staff_pass = $POST['pass'];
+$staff_pass2 = $POST['pass2'];
+
+
+
+?>
 </body>
 </html>
