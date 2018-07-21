@@ -6,7 +6,7 @@
 </head>
 <body>
 
-スタッフ追加</ br>
+スタッフ追加<br />
 <br />
 <form method = "post" action = "staff_add_check.php">
 スタッフ名を入力してください。<br />
