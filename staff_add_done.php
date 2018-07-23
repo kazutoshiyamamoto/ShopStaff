@@ -25,6 +25,10 @@ try {
     $data[] = $staff_name;
     $data[] = $staff_pass;
     $stmt -> execute($data);
+
+    $dbh = null;
+
+
 }
 
 
