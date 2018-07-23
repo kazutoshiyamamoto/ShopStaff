@@ -32,15 +32,14 @@ try {
     print 'さんを追加しました。<br />';
 
 }
-catch ($Exception $ e) 
+catch ($Exception $e) 
 {
     print 'ただいま障害により大変ご迷惑をおかけしております。';
     exit();
 }
-
 ?>
 
-
+<a href = "staff_list.php">戻る</a>
 
 </body>
 </html>
