@@ -28,6 +28,9 @@ try {
 
     $dbh = null;
 
+    print $staff_name;
+    print 'さんを追加しました。<br />';
+
 
 }
 
