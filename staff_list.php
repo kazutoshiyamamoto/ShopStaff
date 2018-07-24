@@ -18,7 +18,13 @@ try {
     $sql = 'SELECT name FROM mst_staff WHERE 1';
     $stmt = $dbh -> prepare($sql);
     $stmt -> execute();
+
+    $dbn = null;
+
+    print 'スタッフ一覧<br /><br />';
+
     
+
 
 
 } catch {
