@@ -23,8 +23,14 @@ try {
 
     print 'スタッフ一覧<br /><br />';
 
-    
-
+    while(true) {
+        $rec = $stmt -> fetch(PDO::FETCH_ASSOC);
+        if($rec == false) {
+            break;
+        }
+        print $rec['name'];
+        print '<br />';
+    }
 
 
 } catch {
