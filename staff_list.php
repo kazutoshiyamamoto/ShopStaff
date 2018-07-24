@@ -32,12 +32,10 @@ try {
         print '<br />';
     }
 
-
-} catch {
-
+} catch(Exception $e) {
+    print 'ただいま障害により大変ご迷惑をおかけしております。';
+    exit();
 }
-
 ?>
-
 </body>
 </html>
