@@ -6,5 +6,14 @@
 </head>
 <body>
 
+<?php
+
+try {
+    $staff_code = $_POST['staffcode'];
+}
+
+
+?>
+
 </body>
 </html>
