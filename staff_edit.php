@@ -26,6 +26,9 @@ try {
     $staff_name = $rec['name'];
 
     $dbh = null;
+} catch (Exception $e) {
+    print 'ただいま障害により大変ご迷惑をおかけしております。';
+    exit();
 }
 
 
