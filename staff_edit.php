@@ -24,6 +24,8 @@ try {
 
     $rec = $stmt -> fetch(PDO::FETCH_ASSOC);
     $staff_name = $rec['name'];
+
+    $dbh = null;
 }
 
 
