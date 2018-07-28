@@ -16,7 +16,13 @@ try {
     $password = '';
     $dbh = new PDO($dsn,$user,$password);
     $dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+
+    $sql = 'SELECT name FROM mst_staff WHERE code = ?';
+    $stmt = $dbh -> prepare($sql);
+    $data[] = $staff_code;
+    $stmt -> execute($data);
 }
+
 
 
 ?>
