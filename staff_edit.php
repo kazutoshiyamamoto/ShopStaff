@@ -21,6 +21,9 @@ try {
     $stmt = $dbh -> prepare($sql);
     $data[] = $staff_code;
     $stmt -> execute($data);
+
+    $rec = $stmt -> fetch(PDO::FETCH_ASSOC);
+    $staff_name = $rec['name'];
 }
 
 
