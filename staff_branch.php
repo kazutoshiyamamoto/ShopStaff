@@ -1,17 +1,17 @@
 <?php
 
-if(isset($_POST['disp'])==true) {
+if(isset($_POST['disp']) == true) {
 
-    if(isset($_POST['staffcoe'])==false) {
+    if(isset($_POST['staffcoe']) == false) {
         header('Location:staff_ng.php');
         exit();
     }
-    $staff_code=$_POST['staffcode'];
+    $staff_code　= $_POST['staffcode'];
     header('Location: staff_disp.php?staffcode = '.$staff_code);
     exit();
 }
 
-if(isset($_POST['add'])==true) {
+if(isset($_POST['add']) == true) {
     header('Location:staff_add.php');
     exit();
 }
